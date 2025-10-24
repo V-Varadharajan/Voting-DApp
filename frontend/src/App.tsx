@@ -9,7 +9,7 @@ import NetworkBadge from './components/NetworkBadge'
 
 
 // Read contract address from Vite environment variable. Vite exposes vars prefixed with VITE_ via import.meta.env
-const DEFAULT_CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS || 0xe4177559c98CFec3FcA3Ef1883F3F105D31adA5B;
+const DEFAULT_CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS || 0x72d59E9E6cA05D202a2Cf874602Fc2fEFD977c2E;
 
 export default function App() {
   const [provider, setProvider] = useState(null)
