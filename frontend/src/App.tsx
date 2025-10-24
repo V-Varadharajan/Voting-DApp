@@ -51,6 +51,7 @@ export default function App() {
           setContract(null)
           return
         }
+        console.log('Contract code found:', contractAddress);
         const ct = new Contract(contractAddress, votingAbi.abi || votingAbi, signer)
         setContract(ct)
         setMessage('')
